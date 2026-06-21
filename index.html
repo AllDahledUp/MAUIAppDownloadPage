@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAUI Download</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<style>
+#downloadBtn{
+    background-color: #0d233a !important;
+    color: #fff;
+}
+#downloadBtn:hover, #downloadBtn:active{
+    background-color: #0d6efd !important;
+    color: #fff;
+}
+#header{
+    background-color: #0d233a !important;
+}
+#olList{
+    max-width: 600px;
+    width: 100%;
+}
+</style>
+</head>
+<body class="d-flex flex-column vh-100">
+    <header class="bg-dark bg-gradient text-white p-3">
+        <div class="container">
+            <h1 class="h3 mb-0">So-Brite College Schedule Tracker</h1>
+        </div>
+    </header>
+
+    <div class="container flex-grow-1 pt-5 mt-5">
+        <div class="row justify-content-center w-100 m-0">
+            <div class="col-md-8 text-center">
+                <h1>Welcome!</h1>
+                <div class="d-flex justify-content-center">
+                    <ol class="list-group list-group-numbered text-start" id="olList">
+                        <li class="list-group-item">Open this page on the target mobile device where this application will be used.</li>
+                        <li class="list-group-item">Click the download button below to download the mobile application.</li>
+                    </ol>
+                </div>
+                <button class="btn mt-3" id="downloadBtn">Download</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
